@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<title>homepage</title>
+	<head>
+		<script src="pegsolver.js" type="application/javascript"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body onLoad="init_game()">
+		<div id="main" align="center">
+			<h2><b id="p1">Peg Solitaire -  Click the 'Next' button to see the next move</b></h2>
+			<div id = "c1"><canvas id="canvas1" height='500' width='600'></canvas></div>
+			<div id="control">
+				<table cellspacing="20px">
+					<tr>
+						<td><a href="javascript:draw_game()" class="button">Next</a></td>
+						<td><a href="javascript:reset_game()" class="button">Reset</a></td>
+					</tr>
+				</table>
+			</div>		
+		</div>
+	</body>
+</html>
